@@ -7,13 +7,13 @@
 
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #1a1a1a; /* dark gray */
-    color: #f0f0f0; /* light text */
+    background-color: #1a1a1a; 
+    color: #f0f0f0;
     line-height: 1.6;
 }
 .hero {
-    background-color: #111; /* Almost black */
-    color: #f1f1f1; /* Light gray text */
+    background-color: #111;
+    color: #f1f1f1; 
     padding: 80px 20px;
     text-align: center;
     animation: fadeIn 2s ease-in-out;
@@ -28,7 +28,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.4); /* dark transparent layer */
+    background: rgba(0,0,0,0.4); 
     z-index: -1;
 }
 .hero h1{
@@ -60,12 +60,12 @@ h2 {
     gap: 10px;
 }
 .skills li {
-    background: #2a2a2a;  /* dark gray */
-    color: #f1f1f1;        /* light text */
+    background: #2a2a2a;  
+    color: #f1f1f1;        
     padding: 10px;
     border-radius: 8px;
     text-align: center;
-    border: 1px solid #444; /* optional border */
+    border: 1px solid #444; 
     font-size: 1.5rem;
 }
 
@@ -86,7 +86,7 @@ h2 {
 }
 .project-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1); /* soft white glow */
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1); 
 }
 
 .contact p{
@@ -121,11 +121,11 @@ h2 {
 }
 
 .Profile-pic {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 50%;
-    border: 2px solid #fff;
+    border: 3px solid #fff;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     transition: transform 0.3s ease-in-out;
     display: block;
@@ -133,8 +133,8 @@ h2 {
 }
 
 .profile_photo {
-    width: 140px;
-    height: 140px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid white;
